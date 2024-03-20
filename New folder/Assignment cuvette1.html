@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 60vh;
+            width: 100vw;
+        
+
+        }
+
+        footer {
+            height: 50vh;
+            width: 100vw;
+            background-color: #282828;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr .50fr;
+            background-color: #FFCD9E;
+        }
+
+        .fig img {
+            height: 450px;
+            width: 450px;
+            
+        }
+
+        .figm {
+            margin: 40px;
+            padding: 40px;
+        }
+
+        .right {
+            float: right;
+            text-align-last: right;
+            color: white;
+            margin: 6% 10% 10% 10%;
+            list-style: none;
+        }
+
+        .left {
+            float: left;
+            color: white;
+        }
+
+        .hi {
+            list-style: none;
+            margin: 10px;
+            padding: 50px;
+        }
+
+
+
+        li {
+            padding: 10px;
+        }
+
+        #email {
+            border: 2px solid black;
+            border-radius: 5px;
+            height: 25px;
+
+        }
+
+        .registerbtn {
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 100px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="figm">
+                <h2>An inspiring design delivered to<br> your inbox every morning</h2><br>
+                <div class="t">
+                    <p>Our team scouts the internet for the best designs,<br> illustrations and art and delivers a
+                        truly
+                        inspiring <br>
+                        one every day to your inbox</p>
+                </div><br>
+                <h3>Show me how it looks</h3><br>
+                <input type="email" id="email" name="email" placeholder="Your e-mail address">
+                <button type="submit" class="registerbtn">Register Now</button>
+            </div>
+            <div class="fig">
+                <img src="dweep io 1.png"
+                    alt="">
+            </div>
+
+        </div>
+    </header>
+    <footer>
+        <div class="left">
+            <ul class="hi">
+                <li>Prompt Generator</li>
+                <li>Dwep Daily</li>
+                <li>All Contributors</li>
+                <li>Your Data on Dweep.io</li>
+                <li> Contribute to Dweep</li>
+            </ul>
+
+
+        </div>
+        <div class="right ">
+            <ul class="rightitem">
+                <li>Dweep.io</li>
+                <li>Made with love in India</li>
+                <img src="InstagramLogo.png" alt="">
+                <img src="LinkedinLogo.png" alt="">
+                <br>
+                <li>hello@dweep.io</li>
+            </ul>
+
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
